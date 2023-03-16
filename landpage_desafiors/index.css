@@ -1,0 +1,57 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  -webkit-font-smoothing: antialised;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+body{
+  
+  text-align: center;
+  padding-top: 160px;
+  background-image: url(https://media.discordapp.net/attachments/1078771129419829289/1085344903049003018/FundoViagem.png?width=1040&height=676);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+h1{
+  padding-bottom: 15px;
+  font-size:64px;
+  line-height: 80px;
+  
+}
+h1 strong{
+  color: #EC4C8F;
+}
+
+h3{
+  color: gray;
+  font-weight: 50;
+  margin-bottom: 72px;
+  font-size:24px
+}
+
+a{
+  padding: 12px 32px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height:24px;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+}
+
+.otr_btn:hover{
+  color:darkgrey;
+}
+.purple_btn:hover{
+  background-color: darkmagenta;
+}
+.purple_btn{
+  color:white;
+  opacity:1;
+  background-color: #EC4C8F;
+  border-radius: 30px;
+}
